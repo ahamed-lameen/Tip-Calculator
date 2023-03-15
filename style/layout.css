@@ -1,0 +1,24 @@
+/**
+*
+* layout.css
+* @author - Lameen
+* @date - 11/03/2023
+**/
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.cell-1 {
+    flex: 1;
+}
+.cell-w260 {
+    width: 260px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.row-fixed {
+    display: inline-flex;
+}

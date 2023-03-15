@@ -1,0 +1,15 @@
+/**
+*
+* base.css
+* @author - Lameen
+* @date - 11/03/2023
+**/
+
+body {
+    font-size: 16px;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #c5e4e7;
+    color: #000;
+}

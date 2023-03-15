@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spliiter</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title-box">
+            <h4 class="title">SPLI</h4>
+            <h4 class="title">TTER</h4>
+        </div>
+        <div class="box-1 row">
+            <div class="cell-1">
+                <p class="label">Bill</p>
+                <input type="number" class="text-field" size="22" id="bill" placeholder="0"/>
+                <div class="error" id="bill-error"></div>
+                <p class="label">Tip %</p>
+                <input type="number" class="text-field" size="22" id="tip" placeholder="0"/>
+                <div class="error" id="tip-error"></div>
+                <p class="label label-people">Number of People</p>
+                <input type="number" class="text-field People-text-field" size="22" id="total-people" placeholder="0"/>
+                <div class="error" id="persons-error"></div>
+                <input type="button" class="secondary-button" value="CALCULATE" id="calculate"  onclick="tips()">
+            </div>
+            <div class="cell-w260 box-2">
+                <div class="row">
+                    <div class="cell-1">
+                        <p class="label-total">Tip Amount</p>
+                        <p class="label-person">/ Person</p>
+                    </div>
+                    <div class="cell-1">
+                        <p class="amount" id="tip-amount"><span class="dollar">$</span>0.00</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell-1">
+                        <p class="label-total">Total</p>
+                        <p class="label-person">/ Person</p>
+                    </div>
+                    <div class="cell-1">
+                        <p class="amount" id="total"><span class="dollar">$</span>0.00</p>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <input type="button" class="primary-button" value="RESET" id="reload" onclick="reload()"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script/base.js"></script>
+</body>
+</html>

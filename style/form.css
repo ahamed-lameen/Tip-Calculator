@@ -1,0 +1,57 @@
+/**
+*
+* form.css
+* @author - Lameen
+* @date - 11/03/2023
+**/
+.text-field {
+    background-color: #f3f8fb;
+    color: #00474b;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 0 3px 0 23px;
+    padding: 7px 7px 7px 0;
+    border: none;
+    outline: none;
+}
+.People-text-field {
+    margin: 0 3px 0px 23px;
+}
+.text-field::placeholder {
+    text-align: right;
+    font-size: 16px;
+    margin: 0 0 0 0;
+    color: #00474b;
+}
+.text-field:focus {
+    border: 2px solid #32b0a1;
+}
+.button-container {
+    margin: 61px auto;
+    display: flex;
+    justify-content: center;
+}
+.primary-button {
+    color: #00474b;
+    font-weight: bold;
+    background-color: #9fe8df;
+    border-radius: 4px;
+    padding: 8px 40px;
+    width: 207px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+.secondary-button {
+    color: #fff;
+    font-weight: bold;
+    background-color: #00474d;
+    border-radius: 4px;
+    padding: 8px 40px;
+    width: 220px;
+    margin: 20px 0 10px 23px;
+    border: none;
+    cursor: pointer;
+}
